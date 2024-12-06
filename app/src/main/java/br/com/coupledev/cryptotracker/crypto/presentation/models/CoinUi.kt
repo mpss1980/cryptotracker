@@ -1,10 +1,9 @@
 package br.com.coupledev.cryptotracker.crypto.presentation.models
 
-import android.icu.number.NumberFormatter
 import android.icu.text.NumberFormat
 import androidx.annotation.DrawableRes
 import br.com.coupledev.cryptotracker.crypto.domain.Coin
-import br.com.coupledev.cryptotracker.util.getDrawableIdForCoin
+import br.com.coupledev.cryptotracker.core.presentation.getDrawableIdForCoin
 import java.util.Locale
 
 data class CoinUi(

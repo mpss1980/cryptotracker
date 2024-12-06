@@ -1,4 +1,4 @@
-package br.com.coupledev.cryptotracker.util
+package br.com.coupledev.cryptotracker.core.domain
 
 typealias DomainError = Error
 

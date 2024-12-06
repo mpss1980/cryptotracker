@@ -1,5 +1,5 @@
 
-package br.com.coupledev.cryptotracker.util
+package br.com.coupledev.cryptotracker.core.presentation
 
 import br.com.coupledev.cryptotracker.R
 
