@@ -31,9 +31,13 @@ class CoinListViewModel(
     val events = _events.receiveAsFlow()
 
     fun onAction(action: CoinListAction) {
-        when(action) {
+        when (action) {
             is CoinListAction.OnCoinClick -> {
-
+                _state.update {
+                    it.copy(
+                        selectedCoin = action.coinUi
+                    )
+                }
             }
         }
     }
